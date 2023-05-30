@@ -566,6 +566,10 @@ margin-bottom: 8px;
 
 }
 
+.soc-list {
+  gap: 24px;
+}
+
 .soc-text {
 margin-bottom: 16px;
 font-weight: 500;
@@ -976,16 +980,12 @@ transform: translate(0%);
   border-color: var(--color-span);
 }
 
-
-/*
 .checkbox:checked {
   background-color: var(--color-span) ;
   border: var(--span-border);
   fill: var(--span-fill);
   border-color: var(--color-span);
 }
-*/
-
 
 .form-icon {
   position: absolute;
