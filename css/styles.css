@@ -563,11 +563,6 @@ margin-bottom: 8px;
 
 .soc-list-footer {
   gap: 16px;
-
-}
-
-.soc-list {
-  gap: 24px;
 }
 
 .soc-text {
@@ -970,7 +965,6 @@ transform: translate(0%);
   justify-content: center; 
   background-color: var(--white);
   fill: transparent;
-  
 }
 
 .privacy-label .privacy-text {
@@ -981,9 +975,9 @@ transform: translate(0%);
 }
 
 .checkbox:checked {
-  background-color: var(--color-span) ;
+  background-color: var(--button-bg-hover) ;
   border: var(--span-border);
-  fill: var(--span-fill);
+  fill: var(--white);
   border-color: var(--color-span);
 }
 
