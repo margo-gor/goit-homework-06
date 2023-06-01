@@ -590,11 +590,8 @@ color:var(--white);
 }
 
 .subscribe-form {
-  display: flex
-}
-
-.subscribe-form-label {
-  margin-right: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .subscribe-form-input {
