@@ -964,18 +964,11 @@ transform: translate(0%);
   fill: transparent;
 }
 
-.privacy-label .privacy-text {
-  background-color: var(--color-span) ;
-  border: var(--span-border);
-  fill: var(--span-fill);
-  border-color: var(--color-span);
-}
-
-.checkbox:checked {
+.checkbox:checked + .privacy-label .privacy-text {
   background-color: var(--button-bg-hover) ;
-  border: var(--span-border);
+  border: none;
   fill: var(--white);
-  border-color: var(--color-span);
+  border-color: var(--button-bg-hover);
 }
 
 .form-icon {
