@@ -263,7 +263,7 @@ url('../images/people-office.jpg');
   margin-top: 0;
 }
 
-.hiden-index {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -291,6 +291,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-color);
 }
+
 .features-text {
   font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -327,8 +328,8 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--title-color);
 margin-bottom: 72px;
-
 }
+
 .work-section {
   padding-bottom: 120px;
 }
