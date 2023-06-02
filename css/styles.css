@@ -805,16 +805,6 @@ transform: translate(0%);
     transition-timing-function: var(--transition-function);
     padding: 72px 24px 24px;
     }
-    
-/*
-    background-color: var(--borders);
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color, border;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-function);
-*/
 
     .modal-close-btn {
       position: absolute;
@@ -848,7 +838,7 @@ transform: translate(0%);
       transition-timing-function: var(--transition-function);
     } 
 
-  .is-hidden {
+  .visually-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
