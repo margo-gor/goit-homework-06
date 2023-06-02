@@ -998,7 +998,6 @@ transform: translate(0%);
 
 .accept-icon {
  fill: rgba(244, 244, 253, 1);
- display: inline-flex;
 }
 
 .link-privacy {
